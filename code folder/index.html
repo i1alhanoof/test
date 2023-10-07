@@ -1,0 +1,114 @@
+<!-- HTML sheet: index.html-->
+
+<!DOCTYPE html>
+
+<head>
+    <title>Assignment #1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/jpg" href="profile-image.png">
+</head>
+
+<body>
+    <div id="header-container">
+        <img class="profileImage" src="profile-image.png" alt="profile image"/>
+        <div>
+            <h1>Alhanoof Aljunaydi</h1>
+            <p>Software Engineering Student, with a passion for project management, programming,
+                and AI. I'm seeking to join a professional and highly qualified team to develop my
+                acquired skills and crystallize my knowledge within a work environment that enhances
+                my ability to progress. increases my creative skills my passion for gaining experience
+                and new skills.</p>
+        </div>
+    </div>
+
+    <div id="navbar-container">
+        <a class="navElement" href="#header-container">Home</a>
+        <a class="navElement" href="#education-container">Education</a>
+        <a class="navElement" href="#skills-container">Skills</a>
+        <a class="navElement" href="#contactMe-container">Contact me</a>
+    </div>
+
+    <div id="contactInfo-container">
+        <h2>Contact Info:</h2>
+        <p class="contElement">Email: <a href="mailto:421204606@ju.edu.sa">421204606@ju.edu.sa</a></p>
+        <p class="contElement">Phone Number: +966508411701</p>
+        <p class="contElement">Address: 3780 Al-Qayet street Sakaka, Al-Jouf</p>
+    </div>
+
+    <div id="education-container">
+        <h2>Education:</h2>
+        <ul>
+            <li>Bachelor of Software Engineering, Jouf University.</li>
+            <li>Member of the Student Advisory Council, Jouf University.</li>
+            <li>CO-OP Training at Saudi Data & AI Authority (SDAIA).</li>
+        </ul>
+    </div>
+
+    <div id="skills-container">
+        <h2>Skills:</h2>
+        <ul>
+            <li>Ability to program in Java, Python, SQL, HTML, and CSS.</li>
+            <li>Knowledgeable in Microsoft Office programes.</li>
+        </ul>
+    </div>
+
+    <footer id="contactMe-container">
+        <form>
+            <h2>Contact me:</h2>
+            <div>
+                <label for="nameText">Name</label>
+                <input type="text" id="nameText" required/>
+            </div>
+            <div>
+                <label for="emailText">Email</label>
+                <input type="text" id="emailText" required/>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <input type="radio" id="maleRadio" name="gender" checked/>
+                <label for="maleRadio">Male</label>
+                <input type="radio" id="femaleRadio" name="gender"/>
+                <label for="femaleRadio">Female</label>
+            </div>
+            <div>
+                <label for="countryDropdown">Country</label>
+                <select id="countryDropdown">
+                    <option value="AT">Austria</option>
+                    <option value="BR">Brazil</option>
+                    <option value="CN">China</option>
+                    <option value="DK">Denmark</option>
+                    <option value="EG">Egypt</option>
+                    <option value="FR">France</option>
+                    <option value="DE">Germany</option>
+                    <option value="HK">Hong Kong</option>
+                    <option value="IN">India</option>
+                    <option value="JO">Jordan</option>
+                    <option value="KE">Kenya</option>
+                    <option value="LB">Lebanon</option>
+                    <option value="MA">Morocco</option>
+                    <option value="NZ">New Zealand</option>
+                    <option value="OM">Oman</option>
+                    <option value="PT">Portugal</option>
+                    <option value="QA">Qatar</option>
+                    <option value="RO">Romania</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="TR">Turkey</option>
+                    <option value="UG">Uganda</option>
+                    <option value="VE">Venezuela</option>
+                    <option value="EH">Western Sahara</option>
+                    <option value="YE">Yemen</option>
+                    <option value="ZW">Zimbabwe</option>
+                </select>
+            </div>
+            <div>
+                <label for="messageTextarea">Message</label>
+                <textarea id="messageTextarea" rows="5" cols="30"></textarea>
+            </div>
+            <div>
+                <input id="sub" type="submit" value="Submit">
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>

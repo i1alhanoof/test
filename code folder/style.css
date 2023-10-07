@@ -1,0 +1,93 @@
+/* External CSS style sheet: style.css */
+
+body {
+    font-family: system-ui;
+}
+
+/* style for header-container */
+#header-container {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+/* style for navbar-container */
+#navbar-container {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(46, 46, 46);
+}
+
+.navElement {
+    padding: 18px;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.navElement:hover {
+    color: black;
+    background-color: #F8F4EE;
+}
+
+/* style for contactInfo-container */
+#contactInfo-container {
+    float: right;
+    width: 260px;
+    padding: 10px;
+    margin: 15px 0px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
+#contactInfo-container h2 {
+    margin-top: 6px;
+}
+
+.contElement {
+    margin: 0%;
+}
+
+.contElement a {
+    color: white;
+    text-decoration: none;
+}
+
+/* style for education-container + skills-container */
+#education-container,
+#skills-container {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+/* style for contactMe-container */
+#contactMe-container {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#contactMe-container div {
+    margin: 5px 30px;
+}
+
+#contactMe-container label {
+    display: inline-block;
+    width: 80px;
+    vertical-align: top;
+}
+
+input[type=submit]{
+    margin-left:100px;
+}
